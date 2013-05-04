@@ -83,7 +83,7 @@
 <div id="jqt">
     <div id="map" class="map"></div>
     <!-- Gmaps -->
-    
+
     <!--Add/edit location -->
      <div id="new" style="display: none;">
                
@@ -144,7 +144,30 @@
         <div id="left-triangle2"> </div>
         <div id="right-triangle2"></div>
 
-
+            <!--Search -->
+             <div class="page">
+                    <form action="#" method="get" id="search">
+                        <div class="location">
+                            <label for="location"><i class="icon-search"></i> Search</label>
+                            <input type="text" value="" id="location" />
+                        </div>
+                   
+                        <div class="distance">
+                            <label for="distance">Distance</label>
+                            <select name="distance" id="distance">
+                                <option value="">--</option>
+                                <option value="5">5 Mi</option>
+                                <option value="10">10 Mi</option>
+                                <option value="15">15 Mi</option>
+                                <option value="25">25 Mi</option>
+                                <option value="50">50 Mi</option>
+                                <option value="100">100 Mi</option>
+                            </select>
+                            <a href="#" class="clear" style="display:none">Clear Search</a>
+                        </div>
+                        <button type="submit">Search</button>
+                    </form>
+                </div>
 
     <!-- Bottom Game Controls -->
         <div class="controls title-bar2">
